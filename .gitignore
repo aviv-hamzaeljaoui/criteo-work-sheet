@@ -1,0 +1,23 @@
+# Scala specific
+target/
+lib_managed/
+project/target/
+.idea
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+
+# Maven specific
+log/
+logs/
+
+# SBT specific
+.sbtserver/
+.sbt/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
