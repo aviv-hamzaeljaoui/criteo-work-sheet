@@ -1,4 +1,5 @@
-import CriteoReportAnalysisApiParameters.LOG_LEVEL_HEADER_REPORT
+
+import CriteoAnalyticsReportsParameters.LOG_LEVEL_HEADER_REPORT
 
 import java.io.{File, FileOutputStream}
 import java.nio.file.{Files, Paths}
@@ -7,7 +8,6 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import org.apache.commons.csv.{CSVFormat, CSVParser, CSVPrinter}
 import play.api.libs.json._
-
 
 import scala.collection.JavaConverters._
 object CsvMerger {

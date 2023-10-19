@@ -6,8 +6,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "untitled"
   )
-libraryDependencies += "com.criteo" % "criteo-api-marketingsolutions-sdk" % "2023.07.0.230831"
 libraryDependencies ++= Seq(
+  "com.criteo" % "criteo-api-marketingsolutions-sdk" % "2023.07.0.230831",
   "com.criteo" % "criteo-api-marketingsolutions-sdk" % "2023.07.0.230831",
   "io.circe" %% "circe-core" % "0.14.5",
   "io.circe" %% "circe-generic" % "0.14.5",
